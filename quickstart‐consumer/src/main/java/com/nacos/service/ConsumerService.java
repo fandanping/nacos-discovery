@@ -1,4 +1,4 @@
-package com.nacos.controller;
+package com.nacos.service;
 
 import com.nacos.feign.ProviderClient;
 import org.slf4j.Logger;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @create: 2020-02-26 10:08
  **/
 @RestController
-public class ConsumerController {
-    private static final Logger LOG = LoggerFactory.getLogger(ConsumerController.class);
+public class ConsumerService {
+    private static final Logger LOG = LoggerFactory.getLogger(ConsumerService.class);
 
     @Autowired
     private ProviderClient providerClient;

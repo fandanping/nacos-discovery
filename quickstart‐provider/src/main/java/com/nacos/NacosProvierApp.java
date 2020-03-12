@@ -11,7 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @create: 2020-02-26 09:54
  **/
 @SpringBootApplication
-@EnableDiscoveryClient
+//@EnableDiscoveryClient    不用加 自动就能注册。Eureka 是必须加的
 @EnableFeignClients
 public class NacosProvierApp {
     public static void main(String[] args){

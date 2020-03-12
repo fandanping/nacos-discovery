@@ -1,5 +1,5 @@
 server:
-    port: 56020 #启动端口 命令行注入
+    port: 56021 #启动端口 命令行注入
 spring:
     application:
         name: quickstart-consumer
@@ -9,3 +9,4 @@ spring:
                 server-addr: 127.0.0.1:8848,127.0.0.1:8849,127.0.0.1:8850
                 namespace: 526a8d3b-7b9a-4b09-a966-f00aad86f8b9
                 cluster-name: DEFAULT #默认集群可不填写
+
